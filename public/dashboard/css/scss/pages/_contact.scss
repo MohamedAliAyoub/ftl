@@ -1,0 +1,45 @@
+.contact-page {
+    header.main {
+        background:linear-gradient( rgba(5, 43, 77, 0.8) 100%, rgba(5, 43, 77, 0.8)100%),url('../images/headerphone.png');
+        background-size: 100% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        h1 {
+            font-family: sliderfont; 
+            font-size: 55px;
+        }
+    }
+    article {
+        .our-contacts, .egypt, .switzerland, .poland, .sweden {
+            header {
+                h3 {
+                    font-size:30px;
+                }
+            }
+            article {
+                font-size: 18px;
+            }
+        }
+        .lets-talk {
+            background-color: #00376e;
+            border-radius: 9px;
+            input {
+                background-color: transparent;    
+                background-color: transparent;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-radius: unset;
+                outline: none;
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+        }
+        .map-img {
+            img {
+                border-radius: 9px;
+            }
+        }
+    }
+}

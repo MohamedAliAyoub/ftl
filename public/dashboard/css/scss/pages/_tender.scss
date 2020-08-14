@@ -1,0 +1,203 @@
+// Start The "Tender Request" Page
+
+.tender-request {
+    header.main {
+        background-image: url('../images/trend.png');
+        background-size: 100% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        div {
+            background: #c7a740d9;
+            h1 {
+                font-family: sliderfont;
+                font-size: 40px;
+            }
+        }
+    }
+    article{
+        .tender-management {
+            header {
+                h3 {
+                    strong {
+                        font-size: 30px;
+                        font-weight: bold;
+                        font-family: menufont;
+                        color: #ffc100;
+                    }
+                }
+            }
+            article {
+                p {
+                    font-family: sliderfontp;
+                    color: #fff;
+                    font-size: 18px;
+                }
+                .submit-btn {
+                    button {
+                        width: 297px;
+                        height: 58px;
+                        border-radius: 5px;
+                        font-family: menufont;
+                        color: #fff;
+                        font-weight: bold;
+                        border: none;
+                        outline: none;
+                        background-image: linear-gradient(-90deg, #806513, #f5be08);
+                    }
+                }
+            }
+        }
+        .benefits-section {
+            header {
+                h3 {
+                    strong {
+                        font-size: 30px;
+                        font-weight: bold;
+                        font-family: menufont;
+                        color: #ffc100;
+                    }
+                }
+            }
+            article {
+                ul {
+                    li {
+                        font-family: sliderfontp;
+                        color: #fff;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Start The "Tender Steps" Page
+.tender-step {
+    header {
+        h3 {
+            strong {
+                font-size: 30px;
+                font-weight: bold;
+                font-family: menufont;
+                color: #ffc100;
+            }
+        }
+    }
+    article {
+        section {
+            select {
+                background-color: #003d72; 
+                color:#cccccc; 
+                border-color: #003d72;
+                &:focus {
+                    background-color: #003d72;
+                }
+            }
+            ::placeholder{
+                color: #cccccc;
+            }
+            input {
+                background-color: #003d72; 
+                color:#cccccc; 
+                border-color: #003d72;
+                &:focus {
+                    background-color: #003d72;
+                    color:#cccccc;
+                }
+            }
+            input[type="checkbox"] + label:before {
+                border: 2px solid #f5be08;
+                background: transparent;
+            }
+            .add-btn {
+                button {
+                    color: #fff;
+                    width: 26px;
+                    height: 26px;
+                    border-radius: 5px;
+                    font-weight: bold;
+                    border: none;
+                    outline: none;
+                    background-color: #f5be08;
+                }
+            }
+            #place-of-loading-content, #contry-region-content, #place-charge-content {
+                &:first-child{
+                    .close-btn {
+                        display: none;
+                    }
+                }
+                .close-btn{
+                    position: absolute;
+                    right: 19px;
+                    top: 5px;
+                    background: transparent;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                    font-weight: bold;
+                    outline: none;
+                }
+            }
+            .buttons {
+                .next-button, .back-button{
+                    float: right;
+                    color: #fff;
+                    width: 146px;
+                    height: 52px;
+                    border-radius: 5px;
+                    margin: 0 10px;
+                    font-weight: bold;
+                    outline: none;
+                }
+                .next-button {
+                    border: 2px solid transparent;
+                    background-image: linear-gradient(-90deg, #806513, #f5be08);
+                }
+                .back-button {
+                    background-color: transparent;
+                    border: 2px solid #f5be08;
+                }
+            }
+        }
+    }
+}
+
+// Start The "Tender Congratulations" Page
+.tender-succ {
+    .row {
+        min-height: calc(100vh - 107px);
+        header {
+            h4 {
+                margin-top: 10px;
+                strong {
+                    font-size: 18px;
+                    font-weight: bold;
+                    font-family: menufont;
+                    color: #ffc100;
+                }
+            }
+        }
+        article {
+            p {
+                font-size: 12px;
+                font-family: sliderfontp;
+                color: #fff;
+            }
+            button {
+                width: 206px;
+                height: 44px;
+                border-radius: 3px;
+                border: solid 2px #ffc100;
+                margin: 10px 4px;
+                font-family: menufont;
+                color: #fff;
+                font-weight: bold;
+                background-color: transparent;
+                &.home {
+                    background-color: #ffc100;
+                }
+            }
+        }
+    }
+}

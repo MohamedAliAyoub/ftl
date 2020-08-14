@@ -1,0 +1,47 @@
+// Start Booking Page
+.pricing-page {
+    header.main {
+        background-image: url(../images/header.png);
+        background-size: 100% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        h1 {
+            font-family: sliderfont; 
+            font-size: 55px;
+        }
+    }
+    article {
+        table {
+            thead {
+                font-size: 18px;
+                font-family: menufont;
+                background-color: #314aef;
+                border-radius: 5px;
+                th {
+                    &:first-child{
+                        background-color: #314aef;
+                        border-radius: 5px 0 0 5px;
+                    }
+                    &:last-child{
+                        background-color: #314aef;
+                        border-radius: 0 5px 5px 0;
+                    }
+                }
+            }
+            tbody {
+                border: solid 2px #314aef;
+                tr {
+                    border-top: solid 1px #314aef;
+                    th {
+                        font-size: 20px;
+                        font-family: menufont;
+                    }
+                    td {
+                        font-family: menufont;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

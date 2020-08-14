@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__switzerland" width="19.126" height="19.126" viewBox="0 0 19.126 19.126">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#fff}.prefix__cls-2{fill:#db2727}
+        </style>
+    </defs>
+    <circle id="prefix__Ellipse_763" cx="9.563" cy="9.563" r="9.563" class="prefix__cls-1" data-name="Ellipse 763" transform="translate(.001 .001)"/>
+    <path id="prefix__Path_19243" d="M266.331 7.307v-.008a9.631 9.631 0 0 0-8.222-6.327c1.475.8 1.906 3.344 2.283 6.335a26.236 26.236 0 0 1 0 6.339c-.374 3.007-.807 5.567-2.288 6.373a9.631 9.631 0 0 0 8.225-6.345l.009-.027a9.5 9.5 0 0 0-.013-6.339z" class="prefix__cls-2" data-name="Path 19243" transform="translate(-247.755 -.932)"/>
+    <path id="prefix__Path_19244" d="M13.135 6.375c-.373-2.991-1.29-5.533-2.748-6.336C10.1.014 9.819 0 9.531 0A9.535 9.535 0 0 0 .548 6.366v.008a9.6 9.6 0 0 0-.013 6.339l.009.027a9.535 9.535 0 0 0 8.989 6.385c.289 0 .574-.014.856-.04 1.465-.806 2.383-3.366 2.753-6.373a26.528 26.528 0 0 0-.007-6.337z" class="prefix__cls-2" data-name="Path 19244"/>
+    <g id="prefix__Group_598" data-name="Group 598" transform="translate(4.585 4.593)">
+        <path id="prefix__Rectangle_698" d="M0 0H3.314V9.942H0z" class="prefix__cls-1" data-name="Rectangle 698" transform="translate(3.313)"/>
+        <path id="prefix__Rectangle_699" d="M0 0H9.942V3.314H0z" class="prefix__cls-1" data-name="Rectangle 699" transform="translate(0 3.314)"/>
+    </g>
+</svg>

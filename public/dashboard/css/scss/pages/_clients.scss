@@ -1,0 +1,45 @@
+.clients-page {
+    header.main {
+        background:linear-gradient( rgba(5, 43, 77, 0.8) 100%, rgba(5, 43, 77, 0.8)100%),url('../images/header.png');
+        background-size: 100% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        h1 {
+            font-family: sliderfont; 
+            font-size: 55px;
+        }
+    }
+    article {
+        header {
+            h2 {
+                font-size: 30px;
+                font-weight: bold;
+                span {
+                    color:#314aef;
+                }
+            }
+            p {
+                font-size: 18px;
+                line-height: 22px;
+                &:after {
+                    content: "";
+                    display: block;
+                    margin: auto;
+                    height: 30px;
+                    width: 70%;
+                    border-bottom: 2px solid #314aef;
+                }
+            }
+        }
+        article {
+            .logo {
+                img {
+                    transition: .3s;
+                    &:hover {
+                        transform: scale(1.04);
+                    }
+                }
+            }
+        }
+    }
+}

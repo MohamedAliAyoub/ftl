@@ -1,0 +1,191 @@
+// Start Booking Page
+.booking-page {
+    header.main {
+        background-image: url(../images/header.png);
+        background-size: 100% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        h1 {
+            font-family: sliderfont; 
+            font-size: 55px;
+        }
+    }
+    .booking-content {
+        header {
+            h3 {
+                text-align: center;
+                font-size: 30px;
+                font-weight: bold;
+                color: #fff;
+                span {
+                    color: #314aef;
+                }
+            }
+        }
+        article {
+            .search-section {
+                input{
+                    height: 51px;
+                }
+                button {
+                    background-color: #314aef;
+                    position: relative;
+                    left: -3px;
+                    float: right;
+                    height: 51px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+// Start Booking Details Page
+.booking-details-page {
+    color: #fff;
+    .booking-content {
+        header {
+            h3 {
+                color: #fff;
+                font-size: 30px;
+            }
+        }
+        article {
+            .box-content {
+                article {
+                    border-radius: 3px;
+                    border: solid 1px #314aef;
+                    padding: 15px;
+                }
+                color: #fff;
+                ul {
+                    li{
+                        margin-bottom: 10px;
+                        a {
+                            background-color: transparent;
+                            color: #fff;
+                            font-family: sliderfontp;
+                            min-height: 48px;
+                            border-radius: 3px;
+                            border: solid 1px #314aef;
+                            line-height: 31px;
+                            font-size: 14px;
+                            &.active {
+                                background-color: #314aef;;
+                            }
+                        }
+                    }
+                }
+                input {
+                    background-color: transparent;
+                    border-color: #003d72;
+                    color: #fff;
+                }
+                .place {
+                    color:#314aef;
+                    margin-bottom: 0;
+                }
+            }
+            input[type="radio"] + label:before{
+                border: 1px solid #fff;
+                background-color: transparent;
+            }
+            .price-owner {
+                color: #fff;
+                article{
+                    border-radius: 3px;
+                    border: solid 1px #314aef;
+                    padding: 15px;
+                    input {
+                        background-color: transparent;
+                        border-color: #003d72;
+                        color: #fff;
+                    }
+                }
+                button {
+                    background-color: #314aef;
+                    height: 48px;
+                    font-weight: bold;
+                    color: #fff;
+                    border: none;
+                    outline: none;
+                    width: 100%;
+                    font-size: 18px;
+                    border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                    -moz-border-radius: 3px;
+                    -ms-border-radius: 3px;
+                    -o-border-radius: 3px;
+                }
+            }
+            .date{
+                input {
+                    background-color: transparent;
+                    border-color: #314aef;
+                    color: #fff;
+                }
+            }
+            .containers-box-content {
+                article {
+                    border-radius: 3px;
+                    border: solid 1px #314aef;
+                    padding: 15px;
+                }
+                color: #fff;
+                .left-section {
+                    input {
+                        background-color: transparent;
+                        border-color: #003d72;
+                        color: #fff;
+                    }
+                    .place {
+                        color:#314aef;
+                        margin-bottom: 0;
+                    }
+                    input[type="checkbox"] + label:before{
+                        border: 1px solid #314aef;
+                        background-color: transparent;
+                    }
+                }
+                .right-parent {
+                    @media(min-width: 992px){
+                        border-left: 2px solid#003d72;
+                    }
+                }
+                .right-section {
+                    input, select {
+                        background-color: transparent;
+                        border-color: #003d72;
+                        color: #fff;
+                    }
+                    select {
+                        color: #65696d;
+                    }
+                    input[type="checkbox"] + label:before{
+                        border: 1px solid #314aef;
+                        background-color: transparent;
+                    }
+                    button {
+                        all: unset;
+                        color: #65696d;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .confirm-btn {
+                button {
+                    background-color: #314aef;
+                    height: 48px;
+                    font-weight: bold;
+                    color: #fff;
+                    border: none;
+                    outline: none;
+                    width: 100%;
+                    font-size: 18px;
+                    border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                }
+            }
+        }
+    }
+}

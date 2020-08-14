@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.045" height="19.126" viewBox="0 0 19.045 19.126">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#0052b4}
+        </style>
+    </defs>
+    <g id="prefix__sweden" transform="translate(-.047)">
+        <circle id="prefix__Ellipse_762" cx="9.5" cy="9.5" r="9.5" fill="#ffda44" data-name="Ellipse 762" transform="translate(.092 .126)"/>
+        <g id="prefix__Group_597" data-name="Group 597" transform="translate(.047)">
+            <path id="prefix__Path_19239" d="M200.348 8.316h11.561A9.57 9.57 0 0 0 200.348.227v8.089z" class="prefix__cls-2" data-name="Path 19239" transform="translate(-192.945)"/>
+            <path id="prefix__Path_19240" d="M7.075 38.28v-7.153a9.569 9.569 0 0 0-4.908 7.153h4.908z" class="prefix__cls-2" data-name="Path 19240" transform="translate(-2.167 -29.964)"/>
+            <path id="prefix__Path_19241" d="M7.075 289.391H2.167a9.569 9.569 0 0 0 4.908 7.153v-7.153z" class="prefix__cls-2" data-name="Path 19241" transform="translate(-2.167 -278.581)"/>
+            <path id="prefix__Path_19242" d="M200.348 289.391v8.088a9.57 9.57 0 0 0 11.561-8.088h-11.561z" class="prefix__cls-2" data-name="Path 19242" transform="translate(-192.945 -278.581)"/>
+        </g>
+    </g>
+</svg>

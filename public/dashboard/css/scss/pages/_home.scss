@@ -1,0 +1,83 @@
+.about-hide {
+    display: none;
+}
+.search-Parent-new {
+    @media (min-width: 1036px){
+        width: 80%;
+    }
+    @media (min-width: 845px){
+        display: flex;
+    }
+    border-radius: 5px; 
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    .child {
+        @media (max-width: 845px){
+            padding-top: 10px;
+        }
+    }
+}
+.search-engine-section{
+    .search-button{
+        @media (max-width: 845px){
+            margin-bottom: 10px;
+        }
+        background-color: #1f8ccc;
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+        @media (min-width: 991px){
+            float: right;
+            border-radius: 0 .3rem .3rem 0;
+        }
+    }
+}
+
+.marketplace-button{
+    button{
+        background: transparent;
+        border: 2px solid #314aef;
+        font-weight: bold;
+        color: #fff;
+        margin-top: 35px;
+        padding: 8px 30px;
+        outline: none;
+    }
+}
+
+.learn-more {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #314aef;
+    color: #fff !important;
+    font-weight: bold;
+    padding: 7px 15px;
+}
+
+.mobile-section {
+    @media(min-width: 992px){
+        height: 550px;
+    }
+    .mobile-img {
+        @media(min-width: 992px){
+            margin-top: -52px;
+        }
+    }
+}
+
+.network-parent {
+    @media(min-width: 992px){
+        height: 500px;
+    }
+    .network-img {
+        @media(min-width: 992px){
+            margin-top: -52px;
+        }
+        @media(max-width: 992px){
+            margin-top: 20px;
+        }
+    }
+}
